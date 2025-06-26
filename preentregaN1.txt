@@ -1,0 +1,20 @@
+Requisitos pre-entrega N2
+
+Estructura del proyecto:
+- Mantener el orden en carpetas.
+
+CSS:
+- Implementar Grid/Flex
+- Hacer 2 páginas 100% responsive (mobile-desktop)
+- Tener todo ordenado
+- Eliminar selectores que no tengan nada de propiedades
+- Reutilizar código
+- Entregar un solo CSS
+
+Bootstrap:
+- Agregar un componente mínimo.
+- Modificar colores o tamaños
+- Hacer uso de flex/grid con Bootstrap
+
+Aclaración:
+- Deben usar de igual manera tanto CSS como Bootstrap!!!!!!
