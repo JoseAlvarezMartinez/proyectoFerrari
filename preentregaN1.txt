@@ -18,3 +18,6 @@ Bootstrap:
 
 Aclaración:
 - Deben usar de igual manera tanto CSS como Bootstrap!!!!!!
+
+GitHub:
+- Entregar SI O SI el repositorio de GitHub con GitHub Pages activado!!!!
