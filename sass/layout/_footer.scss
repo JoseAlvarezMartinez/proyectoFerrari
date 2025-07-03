@@ -1,0 +1,41 @@
+/* Estilos Footer */
+.footerDerechos {
+  color: $colorBlanco;
+  font-weight: 500;
+  text-align: center;
+}
+.logotipoFooter {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+footer {
+  background-color: $colorNegro;
+}
+
+.footer-container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0.2rem;
+  grid-row-gap: 0.2rem;
+  margin: 1rem auto;
+}
+
+.footer-container-primerHijo,
+.footer-container-segundoHijo,
+.footer-container-tercerHijo {
+  background-color: rgba(255, 255, 255, 0.199);
+}
+.footer-container-primerHijo {
+  grid-area: 1 / 1 / 2 / 4;
+  padding: 1rem;
+}
+.footer-container-segundoHijo {
+  grid-area: 2 / 1 / 3 / 4;
+  padding: 1rem;
+}
+.footer-container-tercerHijo {
+  grid-area: 3 / 1 / 4 / 4;
+  padding: 1rem;
+}

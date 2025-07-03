@@ -1,0 +1,51 @@
+/* Estilos Header */
+.logotipo {
+  width: 5rem;
+  height: 5rem;
+}
+.index-header {
+  @extend %paginasHeader;
+  background-image: url(../img/headerBackground.webp);
+}
+.sucursales-header {
+  @extend %paginasHeader;
+  background-image: url(../img/ferrariSucursal.avif);
+  background-position: top;
+}
+.autos-header {
+  @extend %paginasHeader;
+  background-image: url(../img/autosBackground.jpg);
+}
+.contenedor-inferior-header {
+  gap: 1rem;
+  max-width: 30rem;
+}
+
+.index-header-flex {
+  @extend %flexColumn;
+  justify-content: space-between;
+}
+.navegacion-superior ul li a {
+  color: $colorBlanco;
+  text-decoration: none;
+}
+.index-parrafoHeader,
+.index-h1 {
+  color: $colorBlanco;
+}
+.btn-header {
+  width: 15rem;
+  border: none;
+  font-weight: 600;
+  padding: 15px;
+  cursor: pointer;
+}
+.autos-header-container {
+  @extend %flexColumn;
+  justify-content: center;
+}
+
+.autos-header-container h1,
+.autos-header-container p {
+  max-width: 40rem;
+}
