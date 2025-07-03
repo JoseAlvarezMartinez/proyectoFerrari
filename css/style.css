@@ -46,16 +46,6 @@ ul, .sucursales-main-container, .autos-header-container, .index-header-flex {
   justify-content: space-between;
 }
 
-.navegacion-superior ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.index-parrafoHeader,
-.index-h1 {
-  color: #fff;
-}
-
 .btn-header {
   width: 15rem;
   border: none;
@@ -73,7 +63,6 @@ ul, .sucursales-main-container, .autos-header-container, .index-header-flex {
   max-width: 40rem;
 }
 
-/* Estilos Main */
 .index-main {
   margin: 2rem 0;
 }
@@ -94,10 +83,6 @@ ul, .sucursales-main-container, .autos-header-container, .index-header-flex {
   border-bottom-right-radius: 0.5rem;
 }
 
-.card-auto img {
-  width: 100%;
-}
-
 .card-auto-precio {
   color: rgb(0, 128, 0);
   font-weight: 600;
@@ -109,7 +94,6 @@ ul, .sucursales-main-container, .autos-header-container, .index-header-flex {
 }
 
 .card-auto-btn {
-  width: 100%;
   background-color: rgb(255, 0, 0);
   border: none;
   padding: 0.5rem;
@@ -170,25 +154,22 @@ footer {
   margin: 1rem auto;
 }
 
-.footer-container-primerHijo,
-.footer-container-segundoHijo,
-.footer-container-tercerHijo {
-  background-color: rgba(255, 255, 255, 0.199);
-}
-
 .footer-container-primerHijo {
   grid-area: 1/1/2/4;
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.199);
 }
 
 .footer-container-segundoHijo {
   grid-area: 2/1/3/4;
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.199);
 }
 
 .footer-container-tercerHijo {
   grid-area: 3/1/4/4;
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.199);
 }
 
 @media only screen and (min-width: 900px) {

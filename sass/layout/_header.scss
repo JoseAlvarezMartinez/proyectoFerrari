@@ -25,14 +25,6 @@
   @extend %flexColumn;
   justify-content: space-between;
 }
-.navegacion-superior ul li a {
-  color: $colorBlanco;
-  text-decoration: none;
-}
-.index-parrafoHeader,
-.index-h1 {
-  color: $colorBlanco;
-}
 .btn-header {
   width: 15rem;
   border: none;

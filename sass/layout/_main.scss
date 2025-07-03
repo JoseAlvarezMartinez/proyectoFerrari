@@ -1,4 +1,4 @@
-/* Estilos Main */
+
 .sucursales-main-container {
   @extend %flexColumn;
 }
@@ -18,9 +18,6 @@
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
-.card-auto img {
-  width: 100%;
-}
 .card-auto-precio {
   color: rgb(0, 128, 0);
   font-weight: 600;
@@ -30,7 +27,6 @@
   color: $colorNegro;
 }
 .card-auto-btn {
-  width: 100%;
   background-color: rgb(255, 0, 0);
   border: none;
   padding: 0.5rem;
